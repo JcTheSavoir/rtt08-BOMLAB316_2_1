@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>The Magic 8 ball can answer <em>(almost!)</em> any question</h1>
+
+        <button class="start" onclick="startGame()">Start Game</button>
+
+        <div class="userInput">
+            <h3 class="questionTitle">Your Question is: </h3>
+            <p><strong class="userQuestion"></strong></p>
+        </div>
+
+        <div class="magicEightContainer">
+            <img src="https://magic-8ball.com/wp-content/uploads/ball.webp" alt="" class="eightBall1" id="firstImage">
+            <img src="https://magic-8ball.com/wp-content/uploads/ball-back.webp" alt="" class="hiddenEightBall" id="secondImage">
+            <div><em class="hiddenAnswer" id="firstAnswer"></em></div>
+        </div>
+
+        
+
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
